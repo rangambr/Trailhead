@@ -16,7 +16,6 @@
         appEvent.fire();  
         
         var locEvent = $A.get("e.c:PlotMapMarker");
-        console.log(boat);
         locEvent.setParams({
             "sObjectId" : boat.Id,
             "lat" : boat.Geolocation__Latitude__s,

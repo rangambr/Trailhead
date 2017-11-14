@@ -8,7 +8,7 @@
 
     <force:recordData aura:id="service"
             recordId="{!v.id}"
-            fields="Id,Name,Description__c,Price__c,Length__c,Contact__r.Name,Contact__r.Email,Contact__r.HomePhone,BoatType__r.Name,Picture__c,Geolocation__c"
+            fields="Id,Name,Description__c,Price__c,Length__c,Contact__r.Name,Contact__r.Email,Contact__r.HomePhone,BoatType__r.Name,Picture__c"
             targetRecord="{!v.boatRecord}"
             targetFields="{!v.boat}"
             recordUpdated="{!c.onRecordUpdated}"/>

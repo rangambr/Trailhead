@@ -21,6 +21,5 @@
         if(boatReviews != undefined) {
             boatReviews.refresh();
         }
-        
     },
 })
