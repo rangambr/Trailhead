@@ -1,0 +1,4 @@
+<design:component >
+        <design:attribute name="width" label="Width" description="Width of the map" />
+        <design:attribute name="height" label="Height" description="Height of the map"/>
+</design:component>
