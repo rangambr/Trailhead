@@ -3,7 +3,9 @@
         <lightning:layoutItem size="8">
             <c:BoatSearch/>
         </lightning:layoutItem>
-        <lightning:layoutItem size="4">  
+        <lightning:layoutItem size="4">
+            <c:BoatDetails/>
+            <c:Map/>      
         </lightning:layoutItem>
     </lightning:layout>
 </aura:application>	
