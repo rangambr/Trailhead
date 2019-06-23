@@ -14,8 +14,8 @@ export default class BearListNav extends NavigationMixin(LightningElement) {
 		this.bears = result;
 		if (result.data) {
 
-			//TODO: 3. Uncomment these lines
-			// fireEvent(this.pageRef, 'bearListUpdate', result.data);
+			//TODO: 03. Uncomment these lines
+			//fireEvent(this.pageRef, 'bearListUpdate', result.data);
 		}
 	}
 
@@ -37,6 +37,7 @@ export default class BearListNav extends NavigationMixin(LightningElement) {
 	get hasResults() {
 		return (this.bears.data.length > 0);
 	}
+	//navigates user to bear detail page
 	handleBearView(event) {
 		// Get bear record id from bearview event
 		const bearId = event.detail;

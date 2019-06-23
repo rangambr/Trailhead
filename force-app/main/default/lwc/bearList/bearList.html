@@ -11,6 +11,7 @@
 						placeholder="Search for bears"
 						value={searchTerm}>
 					</lightning-input>
+					<!-- Handling component level event -->
 					<lightning-layout multiple-rows="true" pull-to-boundary="small" onbearview={handleBearView}>
 						<template for:each={bears.data} for:item="bear">
 							<lightning-layout-item key={bear.Id} size="3" class="slds-p-around_x-small">
