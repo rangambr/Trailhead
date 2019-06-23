@@ -13,9 +13,13 @@ export default class BearListNav extends NavigationMixin(LightningElement) {
 	loadBears(result) {
 		this.bears = result;
 		if (result.data) {
-			fireEvent(this.pageRef, 'bearListUpdate', result.data);
+
+			//TODO: 3. Uncomment these lines
+			// fireEvent(this.pageRef, 'bearListUpdate', result.data);
 		}
 	}
+
+	//allows us to execute code after the component is loaded. 
 	connectedCallback() {
 		loadStyle(this, ursusResources + '/style.css');
 	}

@@ -7,10 +7,15 @@ export default class BearTile extends LightningElement {
     };
     
     handleOpenRecordClick() {
+
+        /*
+        TODO: 01. Uncomment these lines.
+
         const selectEvent = new CustomEvent('bearview', {
             bubbles: true,
             detail: this.bear.Id
         });
         this.dispatchEvent(selectEvent);
+        */
     }
 }

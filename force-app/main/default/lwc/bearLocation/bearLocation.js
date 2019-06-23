@@ -19,11 +19,18 @@ export default class BearLocation extends LightningElement {
 			const Latitude = data.fields.Location__Latitude__s.value;
 			const Longitude = data.fields.Location__Longitude__s.value;
 			// Transform bear data into map markers
+
+			/*
+
+			TODO: 02. Uncomment these lines.
+
 			this.mapMarkers = [{
 				location: { Latitude, Longitude },
 				title: this.name,
 				description: `Coords: ${Latitude}, ${Longitude}`
 			}];
+			
+			*/
 		}
 	}
 	get cardTitle() {

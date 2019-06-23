@@ -1,6 +1,6 @@
 import { LightningElement, api, wire } from 'lwc';
-import { getRecord, getFieldValue } from 'lightning/uiRecordApi';
-import SUPERVISOR_FIELD from '@salesforce/schema/Bear__c.Supervisor__c';
+import { getRecord, getFieldValue } from 'lightning/uiRecordApi'; //Get record 
+import SUPERVISOR_FIELD from '@salesforce/schema/Bear__c.Supervisor__c'; // Get field api name
 
 const bearFields = [SUPERVISOR_FIELD];
 
